@@ -1,12 +1,14 @@
+import Header from "./componets/Header";
+import Main from "./componets/Main";
 import Navbar from "./componets/Navbar";
-/* --------------------------------- navbar css style starts 
-                        -------------------------------------------------------*/
 
 
 function App() {
   return (
     <>
   <Navbar/>
+  <Header/>
+  <Main/>
     </>
   );
 }

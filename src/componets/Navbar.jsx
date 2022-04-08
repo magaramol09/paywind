@@ -3,7 +3,7 @@ import React from 'react'
 export default function Navbar() {
   return (
     <section className='navbar-bg'>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light ">
   <div className="container">
     <a className="navbar-brand" href="#">Paywind</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
