@@ -169,3 +169,46 @@ header {
   left: 50%;
   top: -4%;
 } */
+
+/* --------------------------------- Main css style starts 
+                        -------------------------------------------------------*/
+
+
+
+.main-container {
+  width: 80vw;
+  padding: 5rem;
+  box-shadow: 0 .4rem 1.2rem rgba(0, 0, 0, 0.2);
+  margin-top: -10rem;
+  background-color: white;
+  border-radius: .5rem;
+}
+
+.main-container .main-heading {
+  font-size: 3rem;
+  font-weight: bolder;
+  margin-bottom: 0.5rem;
+  word-spacing: 1rem;
+}
+
+.main-container-subdiv {
+  padding: 0 4rem;
+
+}
+.main-container-subdiv .sub-heading {
+  font-size: 2rem;
+  font-weight: normal;
+
+}
+.main-container-subdiv .fontawsome-style{
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  width: 6rem;
+  height: 6rem;
+  margin: 2rem auto;
+  background-color: var(--bgcolor);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
