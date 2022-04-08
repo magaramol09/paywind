@@ -182,6 +182,7 @@ header {
   margin-top: -10rem;
   background-color: white;
   border-radius: .5rem;
+  /* border: 2px solid red; */
 }
 
 .main-container .main-heading {
@@ -193,13 +194,13 @@ header {
 
 .main-container-subdiv {
   padding: 0 4rem;
-
+  /* border: 2px solid red; */
 }
 .main-container-subdiv .sub-heading {
   font-size: 2rem;
   font-weight: normal;
-
 }
+
 .main-container-subdiv .fontawsome-style{
   font-size: 2.5rem;
   color: var(--primary-color);
@@ -211,4 +212,25 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
+
+/*! Hover Effect Pending */
+
+/* .main-container-subdiv .fontawsome-style:hover{
+  transition: linear 0.3s;
+  border: 0.1rem solid var(--primary-color);
+  background-color: #f1f5fd !important;
+  color:#6f5de7;
+} */
+
+
+
+/* --------------------------------- About us css style starts 
+                        -------------------------------------------------------*/
+
+
+
+                        
+                        /* --------------------------------- About us css style end 
+                        -------------------------------------------------------*/
