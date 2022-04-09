@@ -2,6 +2,7 @@ import About from "./componets/About";
 import Header from "./componets/Header";
 import Main from "./componets/Main";
 import Navbar from "./componets/Navbar";
+import Services from "./componets/Services";
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
   <Header/>
   <Main/>
   <About/>
+  <Services/>
     </>
   );
 }

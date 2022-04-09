@@ -202,7 +202,7 @@ header {
   font-weight: normal;
 }
 
-.main-container-subdiv .fontawsome-style {
+.fontawsome-style {
   font-size: 2.5rem;
   color: var(--primary-color);
   width: 6rem;
@@ -210,10 +210,11 @@ header {
   margin: 2rem auto;
   background-color: var(--bgcolor);
   border-radius: 50%;
-  display: flex;
+  display: flex !important;
   justify-content: center;
   align-items: center;
   cursor: pointer;
+ transition: linear 0.1s;
 }
 
 /*! Hover Effect Pending */
@@ -230,9 +231,10 @@ header {
 /* --------------------------------- About us css style starts 
                         -------------------------------------------------------*/
 
-.common-section{
-   margin: 5rem 0rem;
- }                       
+.common-section {
+  margin: 5rem 0rem;
+}
+
 .our-service-leftside-img img {
   width: 58%;
   height: 75%;
@@ -286,17 +288,70 @@ header {
 }
 
 .our-services-list p {
-  margin:  1rem;
+  margin: 1rem;
 
 }
 
 /* AboutUs Second section  */
 
-.aboutus-second-section{
-padding-left: 5rem;
-margin-top: 7rem;
+.aboutus-second-section {
+  padding-left: 5rem;
+  margin-top: 7rem;
 }
 
 
 /* --------------------------------- About us css style end 
                         -------------------------------------------------------*/
+
+
+
+
+/* --------------------------------- Services css style end 
+                        -------------------------------------------------------*/
+
+.services-logo {
+  margin: 1rem 0rem;
+}
+.work-container-subdiv {
+  box-shadow: 0 0.8rem 0.8rem rgba(0, 0, 0, 0.25);
+  display: grid;
+  place-items: center;
+  /* border: 2px solid red; */
+  cursor: pointer;
+}
+.work-container-subdiv:hover > .fontawsome-style {
+  font-size: 3rem;
+}
+
+.work-container-subdiv:hover{
+ background-color: var(--bgcolor);
+ box-shadow: 0 0.8rem 0.8rem rgba(0, 0, 0, 0.50);
+
+ 
+}
+
+.services{
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+
+
+
+
+
+
+
+
+
+/* --------------------------------- Services css style end 
+                        -------------------------------------------------------*/
+
+@media(min-width : 992px){
+  .service-container .col-lg-4{ 
+      flex: 0 0 auto;
+      width: 30% !important;
+      margin: 2.5rem auto;
+  }
+}
