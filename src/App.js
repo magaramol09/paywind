@@ -1,3 +1,4 @@
+import About from "./componets/About";
 import Header from "./componets/Header";
 import Main from "./componets/Main";
 import Navbar from "./componets/Navbar";
@@ -9,6 +10,7 @@ function App() {
   <Navbar/>
   <Header/>
   <Main/>
+  <About/>
     </>
   );
 }

@@ -64,8 +64,8 @@ h6 {
 }
 
 .btn-style {
-  width: 8.5rem;
-  height: 3.5rem;
+  width: 9rem;
+  height: 4rem;
   border-radius: 2rem !important;
   color: #fff;
   background-color: var(--primary-color);
@@ -196,12 +196,13 @@ header {
   padding: 0 4rem;
   /* border: 2px solid red; */
 }
+
 .main-container-subdiv .sub-heading {
   font-size: 2rem;
   font-weight: normal;
 }
 
-.main-container-subdiv .fontawsome-style{
+.main-container-subdiv .fontawsome-style {
   font-size: 2.5rem;
   color: var(--primary-color);
   width: 6rem;
@@ -229,8 +230,66 @@ header {
 /* --------------------------------- About us css style starts 
                         -------------------------------------------------------*/
 
+.common-section{
+   margin: 5rem 0rem;
+ }                       
+.our-service-leftside-img img {
+  width: 50%;
+  height: 75%;
+  margin-top: 10rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.8rem 0.8rem;
+  border-radius: 1.5rem;
+}
 
 
-                        
-                        /* --------------------------------- About us css style end 
+.our-services-list h1 {
+  font-weight: bold;
+}
+
+.our-services-list {
+  padding-left: 2rem;
+}
+
+.our-services-info {
+  margin-top: 4rem;
+}
+
+.our-services-list .mini-title {
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 3rem 0;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.our-services-number {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 0.1rem solid var(--primary-color);
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  display: grid;
+  place-items: center
+}
+
+.services-btn {
+  width: 12.5rem;
+  height: 4rem;
+  border-radius: 2rem !important;
+  color: var(--primary-color);
+  background-color: white;
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  border: .1rem solid #6f5de7;
+}
+
+.our-services-list p {
+  margin:  1rem;
+
+}
+
+
+/* --------------------------------- About us css style end 
                         -------------------------------------------------------*/
