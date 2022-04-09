@@ -234,7 +234,7 @@ header {
    margin: 5rem 0rem;
  }                       
 .our-service-leftside-img img {
-  width: 50%;
+  width: 58%;
   height: 75%;
   margin-top: 10rem;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 0.8rem 0.8rem;
@@ -288,6 +288,13 @@ header {
 .our-services-list p {
   margin:  1rem;
 
+}
+
+/* AboutUs Second section  */
+
+.aboutus-second-section{
+padding-left: 5rem;
+margin-top: 7rem;
 }
 
 
