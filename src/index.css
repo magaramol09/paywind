@@ -194,6 +194,7 @@ header {
 
 .main-container-subdiv {
   padding: 0 4rem;
+  box-shadow: 0 0.8rem 0.8rem rgba(0, 0, 0, 0.25);
   /* border: 2px solid red; */
 }
 
@@ -225,6 +226,15 @@ header {
   background-color: #f1f5fd !important;
   color:#6f5de7;
 } */
+
+.main-container-subdiv:hover{
+  background-color: var(--bgcolor);
+  box-shadow: 0 0.8rem 0.8rem rgba(0, 0, 0, 0.50);
+ }
+
+.main-container-subdiv:hover > .fontawsome-style {
+  font-size: 3rem;
+}
 
 
 
@@ -319,6 +329,7 @@ header {
   /* border: 2px solid red; */
   cursor: pointer;
 }
+
 .work-container-subdiv:hover > .fontawsome-style {
   font-size: 3rem;
 }
@@ -326,8 +337,6 @@ header {
 .work-container-subdiv:hover{
  background-color: var(--bgcolor);
  box-shadow: 0 0.8rem 0.8rem rgba(0, 0, 0, 0.50);
-
- 
 }
 
 .services{
@@ -353,5 +362,11 @@ header {
       flex: 0 0 auto;
       width: 30% !important;
       margin: 2.5rem auto;
+  }
+
+  .main-line-spece .col-lg-4 {
+    flex: 0 0 auto;
+    width: 30% !important;
+    margin: 2.5rem auto;
   }
 }

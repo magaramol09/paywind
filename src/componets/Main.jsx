@@ -6,7 +6,7 @@ export default function Main() {
         <>
             <div className="main-container container">
                 <h1 className='main-heading text-center'>How does it work</h1>
-                <div className="row">
+                <div className="row main-line-spece">
                     {data.map((curElem) => {
                         const { id, logo, title, info } = curElem;
                         return <>
