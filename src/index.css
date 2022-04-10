@@ -218,14 +218,6 @@ header {
  transition: linear 0.1s;
 }
 
-/*! Hover Effect Pending */
-
-/* .main-container-subdiv .fontawsome-style:hover{
-  transition: linear 0.3s;
-  border: 0.1rem solid var(--primary-color);
-  background-color: #f1f5fd !important;
-  color:#6f5de7;
-} */
 
 .main-container-subdiv:hover{
   background-color: var(--bgcolor);
@@ -349,6 +341,56 @@ header {
 
 
 
+
+
+
+
+
+/* --------------------------------- Contact css style start 
+                        -------------------------------------------------------*/
+.contact-heading{
+  font-size:2.5rem;
+}
+.contact-section{
+margin-top: 15rem;
+}
+.contact-left-side-img{
+  width: 80% !important;
+  height: 30rem !important;
+  height: auto;
+}
+
+.margin-buttom{
+  margin-bottom: 4rem;
+
+}
+.contact-right-side .form-control{
+  border: 1px solid #ced4da;
+  height: 5rem;
+  font-size: 1.6rem;
+  border-radius: 0.5rem;
+  padding-left: 1rem;
+  font-weight: lighter;
+}
+
+.form-check-input {
+  width: 2rem;
+  height: 2rem;
+}
+.form-checkbox-style{
+  margin: 4rem 0;
+}
+.form-checkbox-style .main-hero-para{
+  font-size: 1.5rem;
+  color: var(--text-color);
+  margin: 0;
+  font-weight: lighter;
+  width: 75%;
+  padding: 0 2rem;
+}
+
+/* --------------------------------- Contact css style end 
+                        -------------------------------------------------------*/
 
 
 

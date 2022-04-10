@@ -11,7 +11,7 @@ export default function Services() {
                     <h1 className="main-heading text-center fw-bold">
                         How to send money
                     </h1>
-                    <div className="row m-auto">
+                    <div className="row  w-100 ">
                         {data.map((curElem) => {
                             const { id, logo, title, info } = curElem;
                             return (
