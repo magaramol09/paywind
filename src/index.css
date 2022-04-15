@@ -365,8 +365,11 @@ margin-top: 15rem;
   margin-top: 1rem;
   margin-left: .5rem;
   color: red;
-
 }
+.margin-buttom1{
+  margin-bottom: 4rem;
+}
+
 .contact-right-side .form-control{
   border: 1px solid #ced4da;
   height: 5rem;
@@ -393,6 +396,51 @@ margin-top: 15rem;
 }
 
 /* --------------------------------- Contact css style end 
+                        -------------------------------------------------------*/
+
+/* --------------------------------- Footer css style Start 
+                        -------------------------------------------------------*/
+footer {
+  padding: 5rem 0;
+  background-color: #182334 !important;
+  color: #fff;
+  margin-top: 5rem;
+}
+
+footer h2 {
+  color: #fff;
+}
+
+footer li {
+  list-style: none important;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: #fff;
+  cursor: pointer;
+  margin: 1rem 0;
+}
+
+footer li:hover {
+  color: var(--primary-color);
+}
+footer .fontawesome-style {
+  font-size: 2.3rem;
+  color: var(--primary-color);
+  background-color: transparent;
+  width: 0rem;
+  height: 0rem;
+  margin: 2rem 0;
+  cursor: pointer;
+}
+
+footer .fontawesome-style:hover {
+  transition: all 1s;
+  animation: rotatefont 1s linear infinite alternate-reverse;
+  color: #fff;
+}
+
+
+/* --------------------------------- Footer css style end 
                         -------------------------------------------------------*/
 
 

@@ -33,7 +33,7 @@ export default function ContactUs() {
                         <div className="row">
                             <div className='col-12 col-lg-5'>
                                 <h3 className='fw-bold contact-heading'> Connect With Our <br /> Sales Team.</h3>
-                                  <h5 className='margin-buttom main-hero-para'> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?Lorem ipsum, dolor sit amet consectetur</h5>
+                                  <h5 className='margin-buttom-p main-hero-para'> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?Lorem ipsum, dolor sit amet consectetur</h5>
                                 <img src="./images/hero1.jpg" className='img-fluid w-100 contact-left-side-img' alt="ContactUsimg " />
                             </div>
                             <div className="col-12 col-lg-7 contact-right-side">
@@ -42,8 +42,6 @@ export default function ContactUs() {
                                         <div className="col-12 col-lg-6">
                                             <Field type="text" name="fristName" className={`form-control `} placeholder='First Name' />
                                             <h5 className='margin-buttom'> <ErrorMessage  className='is-invalid' name='fristName'/></h5>
-                                           
-                
                                         </div>
                                         <div className="col-12 col-lg-6">
                                             <Field type="text" name="lastName" className="form-control " placeholder='Last Name' />
@@ -96,6 +94,7 @@ export default function ContactUs() {
                                 </Form>
 
                             </div>
+                            
                         </div>
                     </div>
                 </div>

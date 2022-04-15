@@ -1,5 +1,6 @@
 import About from "./componets/About";
 import ContactUs from "./componets/ContactUs";
+import Footer from "./componets/Footer";
 import Header from "./componets/Header";
 import Main from "./componets/Main";
 import Navbar from "./componets/Navbar";
@@ -15,6 +16,7 @@ function App() {
   <About/>
   <Services/>
   <ContactUs/>
+  <Footer/>
     </>
   );
 }
