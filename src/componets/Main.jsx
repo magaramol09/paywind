@@ -10,8 +10,8 @@ export default function Main() {
                     {data.map((curElem) => {
                         const { id, logo, title, info } = curElem;
                         return <>
-                            <div className="col-12 col-lg-4 text-center main-container-subdiv">
-                                <i class={`fontawsome-style ${logo}`}></i>
+                            <div className="col-12 col-lg-4 text-center main-container-subdiv" key={id}>
+                                <i className={`fontawsome-style ${logo}`}></i>
                                 <h2 className='sub-heading'>{title}</h2>
                                 <p className='main-hero-para w-100'>{info}</p>
                             </div>
