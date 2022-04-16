@@ -1,24 +1,26 @@
-import About from "./componets/About";
-import ContactUs from "./componets/ContactUs";
-import Footer from "./componets/Footer";
-import Header from "./componets/Header";
-import Main from "./componets/Main";
-import Navbar from "./componets/Navbar";
-import Services from "./componets/Services";
+
+import React from 'react'
+import Home from './Home'
+import {Routes,Route,} from "react-router-dom";
+import Contactpage from './componets/Contactpage';
+import Servicespage from './Servicespage';
+import Aboutuspage from './Aboutuspage';
 
 
-function App() {
+export default function App() {
   return (
     <>
-  <Navbar/>
-  <Header/>
-  <Main/>
-  <About/>
-  <Services/>
-  <ContactUs/>
-  <Footer/>
-    </>
-  );
-}
 
-export default App;
+          <Routes>
+
+             <Route path='/' element={<Home/>} /> 
+             <Route path='/contactus' element={<Contactpage/>} /> 
+             <Route path='/services' element={<Servicespage/>} />
+             <Route path='/aboutus' element={<Aboutuspage/>} />
+    
+          
+ 
+         </Routes> 
+    </>
+  )
+}
